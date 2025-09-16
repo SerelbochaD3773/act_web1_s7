@@ -1,0 +1,14 @@
+const numeros = [1, 2, 3, 4, 5];
+numeros.push(6); 
+console.log("Después de push:", numeros);
+numeros.pop(); 
+console.log("Después de pop:", numeros);
+numeros.shift(); 
+console.log("Después de shift:", numeros);
+numeros.unshift(7); 
+console.log("Después de unshift:", numeros);
+numeros.splice(2, 1, 1.5);
+console.log("Después de splice:", numeros);
+const subArray = numeros.slice(1, 4); 
+console.log("Sub-array con slice:", subArray);
+console.log("Array original después de slice:", numeros);
